@@ -1,5 +1,6 @@
 public class Main {
     public static void main(String[] args) {
+        Displayer displayer = new Displayer();
         MaterialSheet sheet = new MaterialSheet(100, 100);
         sheet.addDetail(new Detail(40, 20));
         sheet.addDetail(new Detail(30, 10));
@@ -8,5 +9,6 @@ public class Main {
         sheet.addDetail(new Detail(20, 10));
 
         sheet.arrangeDetails();
+        displayer.displayDetails();
     }
 }

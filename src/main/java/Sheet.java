@@ -8,6 +8,18 @@ public class Sheet {
     private int height;
     private List<Detail> details;
 
+    public int getWidth() {
+        return width;
+    }
+
+    public int getHeight() {
+        return height;
+    }
+
+    public List<Detail> getDetails() {
+        return details;
+    }
+
     public Sheet(int width, int height) {
         this.width = width;
         this.height = height;
